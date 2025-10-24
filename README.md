@@ -52,10 +52,10 @@ It's perfect for "headless" setups where you need console access without pluggin
 - **Serial1 (to Pi):**
 
 
-- `GPIO 20 (PI_RX_PIN)` -> Pi `TXD`
+- `GPIO20 (PI_RX_PIN)` -> Pi `TXD`
 
 
-- `GPIO 9 (PI_TX_PIN)` -> Pi `RXD`
+- `GPIO9 (PI_TX_PIN)` -> Pi `RXD`
 
 
 
@@ -63,10 +63,10 @@ It's perfect for "headless" setups where you need console access without pluggin
 - **OLED (I2C):**
 
 
-- `SCL` -> `GPIO 22` (default)
+- `SCL` -> `GPIO7` (default)
 
 
-- `SDA` -> `GPIO 21` (default)
+- `SDA` -> `GPIO6` (default)
 
 
 
