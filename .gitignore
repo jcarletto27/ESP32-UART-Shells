@@ -1,0 +1,47 @@
+# Arduino/C++ build artifacts
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.exe
+*.dll
+*.lib
+*.zip
+*.uf2
+
+# Arduino sketch build folder
+/build/
+build/
+*.ino.cpp
+
+# Dependency directories (if not managed by a library manager config)
+# /libraries/
+# /packages/
+/components/
+
+# Local configuration files
+.DS_Store
+.vscode/
+*.ccls-cache/
+.ccls-cache/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.env
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Arduino IDE temporary files
+*.tmp
+*.log
+*.bak
+.build/
+.bin/
